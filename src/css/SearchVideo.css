@@ -1,0 +1,36 @@
+.SearchVideo{
+    display:flex;
+    margin-bottom:10px;
+    cursor:pointer;
+}
+.SearchVideo__video{
+    position:relative;
+}
+.video__duration{
+    position:absolute;
+    z-index: 100;
+    bottom:7px;;
+    right:3px;
+    padding: 0px;
+    background-color: rgba(0,0,0,0.75);
+    color:white;
+    border-radius: 2px;
+}
+.SearchVideo__content{
+    padding-left: 10px;
+    color:#606060;
+}
+.channelDetail{
+    padding-top:10px;
+    padding-bottom:10px;
+    display: flex;
+    align-items: center;
+}
+.video__title{
+    font-size: 18px;
+    padding-bottom: 3px;
+    color:black;
+}
+.channelLogo{
+    font-size: large !important;
+}

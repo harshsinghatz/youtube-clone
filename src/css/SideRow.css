@@ -1,0 +1,41 @@
+*{
+    font-family: 'Roboto';
+    font-weight:400;
+    font-size: 12px;
+}
+.siderow{
+    display:flex;
+    align-items: center;
+    padding:10px 20px;
+}
+
+.siderow__icon{
+    color:#606060;
+    font-size: large !important;
+}
+
+.siderow__title{
+    margin-left:20px;
+    flex:1;
+    font-size:12px;
+    font-weight:500;
+}
+.siderow:hover{
+    background-color: lightgray;
+    cursor:pointer;
+}
+.siderow:hover>.siderow__title{
+    font-weight: bold;
+}
+.siderow:hover>.siderow__icon{
+    color:red;
+}
+.selected{
+    background-color: lightgray;
+}
+.selected>.siderow__icon{
+    color:red;
+}
+.selected>.siderow__title{
+    font-weight: bold;
+}

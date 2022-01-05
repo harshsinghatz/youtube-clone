@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.app__view {
+  display: flex;
+  position: relative;
+  height: 100%;
+}
+.app {
+  height: 100vh;
+  overflow: hidden;
+}
+.line__header {
+}
+.app > hr {
+  height: 1px;
+  border: 0;
+  background-color: rgb(230, 230, 230);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

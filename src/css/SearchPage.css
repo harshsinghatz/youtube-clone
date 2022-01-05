@@ -1,0 +1,23 @@
+.searchPage {
+  flex: 0.8;
+  overflow: scroll;
+}
+.searchPage > hr {
+  height: 1px;
+  border: 0;
+  background-color: lightgray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  position: sticky;
+  left: 0;
+}
+.filter__icon {
+  font-size: 25px !important;
+  padding-right: 5px;
+}
+.filter {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  color: #606060;
+}

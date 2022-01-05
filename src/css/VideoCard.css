@@ -1,0 +1,22 @@
+.videoCard{
+    margin-bottom: 40px;
+    width:270px;
+    margin-left:5px;
+    cursor:pointer;
+}
+
+.videoCard__thumbnail{
+    height:auto;
+    width:100%;
+}
+.title{
+    font-size: 16px;
+    color:black !important;
+    padding-bottom: 5px;
+}
+.videoCard__info{
+    color:#606060;
+}
+.videoCard__avatar{
+    margin-right: 7px;
+}
