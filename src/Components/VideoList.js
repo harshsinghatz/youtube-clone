@@ -1,13 +1,11 @@
 import React from "react";
 import "../css/VideoList.css";
 import VideoCard from "./VideoCard";
-import faker from "faker";
 
-function VideoList({ videos, onload }) {
+function VideoList({ videos }) {
   const videoList = videos.map((video) => (
     <VideoCard video={video} key={video.id.videoId} />
   ));
-  // onload();
   return (
     <div className="video__list">
       <h1>Recommended videos</h1>

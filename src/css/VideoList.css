@@ -1,5 +1,4 @@
 .video__list {
-  flex: 0.8;
   padding: 0px;
   background-color: #f9f9f9;
   overflow: scroll;
@@ -19,6 +18,8 @@
 .video__list__videos {
   display: flex;
   flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
 }
 .videoCard__info {
   display: flex;

@@ -1,12 +1,22 @@
 .sidebar {
-  flex: 0.2;
-  /* position: fixed; */
+  position: fixed;
+  flex: 0.1;
+  background-color: #fff;
+  height: 100%;
+  z-index: 1000;
 }
-
+.hidden--sidebar {
+  position: relative;
+}
 .sidebar > hr {
   height: 1px;
   border: 0;
   background-color: lightgray;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+@media only screen and (max-width: 380px) {
+  .hidden--sidebar {
+    display: none !important;
+  }
 }

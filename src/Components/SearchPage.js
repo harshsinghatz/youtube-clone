@@ -3,7 +3,6 @@ import "../css/SearchPage.css";
 import SearchVideo from "./SearchVideo";
 import TuneIcon from "@mui/icons-material/Tune";
 function SearchPage({ videos }) {
-  console.log(videos);
   const searchVideos = videos.map((video) => (
     <SearchVideo video={video} key={video.id.videoId} />
   ));
@@ -14,7 +13,7 @@ function SearchPage({ videos }) {
         <span>FILTER</span>
       </div>
       <hr />
-      {searchVideos}
+      <div className="videos">{searchVideos}</div>
     </div>
   );
 }

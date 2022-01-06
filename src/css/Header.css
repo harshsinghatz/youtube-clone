@@ -12,50 +12,53 @@
 }
 
 .youtube-logo {
-  width: 80px;
+  width: 100px;
   object-fit: contain;
   margin-left: 10px;
 }
 .header__left {
   display: flex;
+  align-items: center;
 }
 .header__center {
   display: flex;
   width: 50%;
   height: 30px;
   border: 1px solid lightgrey;
+  justify-content: space-between;
   align-items: center;
-  margin-left: 3%;
+  position: relative;
+}
+.search__icon {
+  color: grey;
+  height: 30px !important;
+  font-size: 20px !important;
+  margin: 0 0.5rem;
+  position: absolute;
+  cursor: pointer;
+  right: 0;
+  top: 0;
 }
 .header__center > input {
-  flex: 1; /*this means that use as much room in container as possible */
+  flex: 1;
   border: none;
   font-size: 15px;
+}
+.header__center > input:focus {
+  outline: none;
 }
 .header__center > input::placeholder {
   padding-left: 10px;
   color: #999999;
 }
-.search__icon {
-  border: 1px solid lightgrey;
-  color: grey;
-  height: 30px !important;
-  font-size: 20px !important;
-  padding-right: 22px;
-  padding-left: 22px;
-  background-color: #f2f0f0;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  cursor: pointer;
-  /*important overrides the material ui*/
-}
 
 .header__right {
   display: flex;
+  gap: 5%;
   align-items: center;
+  margin-right: 2rem;
 }
 .icon__right {
-  margin-right: 25px;
   color: #606060 !important;
   font-size: 25px !important;
 }
@@ -65,6 +68,15 @@
 }
 .avatar {
   color: #2f429e !important;
-  font-size: 30px !important;
-  margin: auto 12px;
+}
+.search__icon__right {
+  opacity: 0;
+}
+@media only screen and (max-width: 614px) {
+  .header__right {
+    display: none;
+  }
+  .search__icon__right {
+    opacity: 1;
+  }
 }

@@ -1,6 +1,6 @@
 .searchPage {
-  flex: 0.8;
   overflow: scroll;
+  flex: 1;
 }
 .searchPage > hr {
   height: 1px;
@@ -20,4 +20,15 @@
   align-items: center;
   padding: 10px;
   color: #606060;
+}
+.videos {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+@media only screen and (max-width: 380px) {
+  .videos {
+    align-items: center;
+    margin: 0;
+  }
 }

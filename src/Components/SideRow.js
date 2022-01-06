@@ -1,18 +1,13 @@
-import React from 'react'
-import '../css/SideRow.css';
+import React from "react";
+import "../css/SideRow.css";
 function SideRow({ title, Icon, selected }) {
-    const sideRowClass = `siderow ${selected ? 'selected' : ''}`.trim();
-    return (
-        <div className={sideRowClass}>
-            {/* Second way to do it is:{selected && 'selected'}
-        where && means then */}
-            <Icon className='siderow__icon' />
-            <div className='siderow__title'>
-                {title}
-            </div>
-        </div >
-    )
+  const sideRowClass = `siderow ${selected ? "selected" : ""}`.trim();
+  return (
+    <div className={sideRowClass}>
+      <Icon className="siderow__icon" />
+      {title ? <div className="siderow__title">{title}</div> : null}
+    </div>
+  );
 }
 
-export default SideRow
-
+export default SideRow;

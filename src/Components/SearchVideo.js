@@ -1,9 +1,7 @@
 import React from "react";
 import "../css/SearchVideo.css";
-// import Avatar from '@material-ui/core/Avatar';
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import VerifiedUserIcon from "@mui/icons-material/VerifiedUser";
-// import VerifiedUserIcon from "@material-ui/icons/VerifiedUser";
 function SearchVideo({ video }) {
   return (
     <div className="SearchVideo">

@@ -1,6 +1,7 @@
 // import HistoryIcon from "@material-ui/icons/History";
 import React from "react";
 import "../css/SideBar.css";
+// ----------------------------Material UI Icons----------------------------
 import HomeIcon from "@mui/icons-material/Home";
 import WhatshotIcon from "@mui/icons-material/Whatshot";
 import SubscriptionsIcon from "@mui/icons-material/Subscriptions";
@@ -10,15 +11,6 @@ import WatchLaterIcon from "@mui/icons-material/WatchLater";
 import ThumbUpIcon from "@mui/icons-material/ThumbUp";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import HistoryIcon from "@mui/icons-material/History";
-
-// import HomeIcon from '@material-ui/icons/Home';
-// import WhatshotIcon from '@material-ui/icons/Whatshot';
-// import SubscriptionsIcon from '@material-ui/icons/Subscriptions';
-// import VideoLibraryIcon from '@material-ui/icons/VideoLibrary';
-// import OndemandVideoIcon from '@material-ui/icons/OndemandVideo';
-// import WatchLaterIcon from '@material-ui/icons/WatchLater';
-// import ThumbUpIcon from '@material-ui/icons/ThumbUp';
-// import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
 import SideRow from "./SideRow";
 function SideBar() {
